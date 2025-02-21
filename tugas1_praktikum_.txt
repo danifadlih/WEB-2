@@ -1,0 +1,27 @@
+1. Apa yang di maksud dengan dokumen root?
+ dokumen root adalah direktori yang menyimpan semua file situs web.misalnya di server apache.
+
+2.pada apache web server,apakah dukumen root harus terletak dalam direktori c:\xampp\htdocs?jelaskan jawaban annda 
+ tidak dokumen root tidak harus selalu terletak  dalam direktori c:/xampp/htdocs.lokasi dokumen root dapat di konfigurasi sesuai dengan kebutuhan ,dan kamu bisa mengubahnya melalui pengaturan pada file konfigurasi apache.
+
+3. jelaskan apa yang di maksud dengan perintah git,init,clone,remote,add,commit,push dan checkout ?
+ >git init perintah ini di gunakan untuk menginisialisasi repositori git baru di local direktori 
+ >clone di gunakan untuk menduplikasi yang ada baik lokal ataupun remot,ke dalam komputer lokal 
+ >remote perintah ini di gunakan untuk mengola referensi remote dalam repositorigit.
+ >add perintah untuk menambahkan perubahan yang sudah di lakukan pada file (baik itu file baru atau perubahan pada file yang sudah ada ) ke dalam staging area.
+ >push perintah yang di gunakan untuk mengirim commit yang ada di repositori remote,seperti github atau git lab.
+ >checkout di gunakan untuk berpindah antar cabang (branch) atau mengembalikan file ke kondisi tertentu.
+
+4.jelaskan perbedaan antara github dengan gitlab? 
+ Github adalah platfrom berbasis cloud,yang berarti cloud,yang berarti kode sumber di simpan di server github.
+ Gitlab ia menawarkan layanan berbasis cloud ,tatapi lebih flelsibel karena gitlab memungkikan pengguna untuk menghost instansinya sendiri di server pribadi mereka.
+
+5.apa bedanya variable user dengan variable system ?
+ variable user di gunakan untuk menyimpan data atau pengaturan yang bergubungan dengan pengguna tertentum
+ variable system berhubungan dengan pengaturan dan data yang di perlukan oleh sistem operasi atau aplikasi yang berjalan di seluruh sistem
+ 
+
+6.apa persamaan variable system dengan variable constant? 
+  persamaanya adalah = nilai yang tidak berubah (immutable)
+                     = memberikan konfigurasi atau informasi yang di butuhkan oleh sistem operasi dan pemprograman
+                     = penggunaanya bisa secara global 
