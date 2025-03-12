@@ -3,18 +3,19 @@
                                     <div class="row align-items-center gx-5">
                                         <div class="col text-center text-lg-start mb-4 mb-lg-0">
                                             <div class="bg-light p-4 rounded-4">
-                                                <div class="text-secondary fw-bolder mb-2">2015 - 2017</div>
+                                                <div class="text-secondary fw-bolder mb-2">GRADUATE FROM</div>
                                                 <div class="mb-2">
-                                                    <div class="small fw-bolder">Barnett College</div>
-                                                    <div class="small text-muted">Fairfield, NY</div>
+                                                    <div class="small fw-bolder">SDN 1 Bojongmanik</div>
+                                                    <div class="small fw-bolder">MTS Arahman</div>
                                                 </div>
                                                 <div class="fst-italic">
-                                                    <div class="small text-muted">Master's</div>
-                                                    <div class="small text-muted">Web Development</div>
+                                                    <div class="small fw-bolder">Pondok Pesantren Nurul jadid</div>
+                                                    <div>
+                                                    <div class="small fw-bolder">SMA NEGERI 1 Leuwidamar</div>
                                                 </div>
                                             </div>
                                         </div>
-                                        <div class="col-lg-8"><div>Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus laudantium, voluptatem quis repellendus eaque sit animi illo ipsam amet officiis corporis sed aliquam non voluptate corrupti excepturi maxime porro fuga.</div></div>
+                                        <div class="col-lg-20"><div>Seorang pelajar adalah individu yang terlibat dalam proses pendidikan untuk memperoleh pengetahuan, keterampilan, dan kompetensi yang diperlukan untuk mencapai tujuan akademik serta perkembangan pribadi. Pelajar dapat ditemukan di berbagai jenjang pendidikan, mulai dari pendidikan dasar, menengah, hingga perguruan tinggi, serta dalam berbagai bentuk pelatihan dan kursus. Dalam konteks profesional, seorang pelajar tidak hanya berfokus pada pencapaian akademis, tetapi juga pada pengembangan karakter, keterampilan interpersonal, dan persiapan untuk memasuki dunia kerja.</div></div>
                                     </div>
                                 </div>
                             </div>

@@ -3,18 +3,18 @@
                                     <div class="row align-items-center gx-5">
                                         <div class="col text-center text-lg-start mb-4 mb-lg-0">
                                             <div class="bg-light p-4 rounded-4">
-                                                <div class="text-secondary fw-bolder mb-2">2011 - 2015</div>
+                                                <div class="text-secondary fw-bolder mb-2">CURRENTLY STUDYING AT</div>
                                                 <div class="mb-2">
-                                                    <div class="small fw-bolder">ULA</div>
-                                                    <div class="small text-muted">Los Angeles, CA</div>
+                                                    <div class="small fw-bolder">SEKOLAH TINGGI TEKNOLOGI TERPADU NURUL FIKRI</div>
+                                                    <div class="small text-muted"></div>
                                                 </div>
                                                 <div class="fst-italic">
-                                                    <div class="small text-muted">Undergraduate</div>
-                                                    <div class="small text-muted">Computer Science</div>
+                                                    <div class="small fw-bolder">BEROGANISASI DI LDK SENADA LEMABGA DAKWAH KAMPUS</div>
+                                                    <div class="small text-muted"></div>
                                                 </div>
                                             </div>
                                         </div>
-                                        <div class="col-lg-8"><div>Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus laudantium, voluptatem quis repellendus eaque sit animi illo ipsam amet officiis corporis sed aliquam non voluptate corrupti excepturi maxime porro fuga.</div></div>
+                                        <div class="col-lg-20"><div>Seorang mahasiswa adalah individu yang terdaftar di institusi pendidikan tinggi dan sedang mengikuti program pendidikan formal untuk memperoleh gelar akademik. Sebagai bagian dari komunitas akademik, seorang mahasiswa tidak hanya terlibat dalam pembelajaran teoretis, tetapi juga diharapkan untuk mengembangkan keterampilan kritis, analitis, dan profesional yang relevan dengan bidang studi yang digeluti. Dalam konteks profesional, seorang mahasiswa berperan sebagai agen perubahan yang aktif dalam proses pencarian pengetahuan dan pengembangan kompetensi yang akan mempersiapkan mereka untuk memasuki dunia kerja atau melanjutkan studi lebih lanjut. .</div></div>
                                     </div>
                                 </div>
                             </div>
