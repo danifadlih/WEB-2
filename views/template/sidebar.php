@@ -4,7 +4,7 @@
             <div class="nav">
 
                 <!-- Dashboard -->
-                <a class="nav-link" href="/WEB2 backup/views/dashboard.php">
+                <a class="nav-link" href="/WEB-2/views/dashboard.php">
                     <div class="sb-nav-link-icon"><i class="fas fa-tachometer-alt"></i></div>
                     Dashboard
                 </a>
@@ -17,9 +17,9 @@
                 </a>
                 <div class="collapse" id="collapseAnggota" aria-labelledby="headingOne" data-bs-parent="#sidenavAccordion">
                     <nav class="sb-sidenav-menu-nested nav">
-                        <a class="nav-link" href="/WEB2 backup/views/anggota/index.php">Data Anggota</a>
-                        <a class="nav-link" href="/WEB2 backup/views/pegawai/index.php">Pendaftaran Pegawai</a>
-                        <a class="nav-link" href="/WEB2 backup/views/kartu diskon/index.php">Kartu Diskon</a>
+                        <a class="nav-link" href="/WEB-2/views/anggota/index.php">Data Anggota</a>
+                        <a class="nav-link" href="/WEB-2/views/pegawai/index.php">Pendaftaran Pegawai</a>
+                        <a class="nav-link" href="/WEB-2/views/kartu diskon/index.php">Kartu Diskon</a>
                     </nav>
                 </div>
 
@@ -31,25 +31,25 @@
                 </a>
                 <div class="collapse" id="collapseProduk" data-bs-parent="#sidenavAccordion">
                     <nav class="sb-sidenav-menu-nested nav">
-                        <a class="nav-link" href="/WEB2 backup/views/jenis produk/index.php">Jenis Produk</a>
-                        <a class="nav-link" href="/WEB2 backup/views/produk/index.php">Produk</a>
+                        <a class="nav-link" href="/WEB-2/views/jenis produk/index.php">Jenis Produk</a>
+                        <a class="nav-link" href="/WEB-2/views/produk/index.php">Produk</a>
                     </nav>
                 </div>
 
                 <!-- Pemesanan -->
-                <a class="nav-link" href="/WEB2 backup/views/pesanan/index.php">
+                <a class="nav-link" href="/WEB-2/views/pesanan/index.php">
                     <div class="sb-nav-link-icon"><i class="fas fa-receipt"></i></div>
                     Pemesanan
                 </a>
 
                 <!-- Detail Pesanan -->
-                <a class="nav-link" href="/WEB2 backup/views/detail pesanan/index.php">
+                <a class="nav-link" href="/WEB-2/views/detail pesanan/index.php">
                     <div class="sb-nav-link-icon"><i class="fas fa-cart-plus"></i></div>
                     Detail Pesanan
                 </a>
 
                 <!-- Transaksi -->
-                <a class="nav-link" href="/WEB2 backup/views/pembayaran/index.php">
+                <a class="nav-link" href="/WEB-2/views/pembayaran/index.php">
                     <div class="sb-nav-link-icon"><i class="fas fa-wallet"></i></div>
                     Transaksi
                 </a>

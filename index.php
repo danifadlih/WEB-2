@@ -1,6 +1,6 @@
 <?php
 require_once __DIR__ . '/vendor/autoload.php';
-require_once '../../models/DetailPesanan.php';
+require_once '../../models/Detail_Pesanan.php';
 require_once '../../models/Produk.php';
 
 use models\DetailPesanan;
