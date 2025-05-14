@@ -3,7 +3,7 @@ require_once __DIR__ . '/../../vendor/autoload.php';
 require '../../models/Detail_pesanan.php';
 require '../../models/Pesanan.php';
 require_once __DIR__ . '/../../config/Connection.php';
-require_once __DIR__ . '/../../models/detail_Pesanan.php';
+require_once __DIR__ . '/../../models/Detail_Pesanan.php';
 
 
 use models\Detail_pesanan;
