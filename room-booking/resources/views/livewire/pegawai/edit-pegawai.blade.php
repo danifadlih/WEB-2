@@ -1,20 +1,39 @@
 <div class="container mx-auto">
-    <h1 class="text-2xl font-bold mb-4">Edit pegawai</h1>
+    <h1 class="text-2xl font-bold mb-4">Edit Pegawai</h1>
+
     <form wire:submit.prevent="save" class="space-y-4">
-        <flux:input type="text" id="nip" wire:model.defer="nip" label="NIP Pegawai"
-            placeholder="Masukkan NIP Pegawai" required />
-        <flux:input type="text" id="nama" wire:model.defer="nama" label="Nama Pegawai"
-            placeholder="Masukkan Nama Pegawai" required />
-        <flux:select id="unitkerjas" wire:model.defer="unitkerjas_id" label="Unit kerja" placeholder="Pilih Unit kerja"
+        <flux:input
+            type="text"
+            id="nip"
+            wire:model.defer="nip"
+            label="NIP Pegawai"
+            placeholder="Masukkan NIP Pegawai"
+            required />
+
+        <flux:input
+            type="text"
+            id="nama"
+            wire:model.defer="nama"
+            label="Nama Pegawai"
+            placeholder="Masukkan Nama Pegawai"
+            required />
+
+        <flux:select
+            id="unit_kerja"
+            wire:model.defer="unitkerja"
+            label="Unit Kerja"
+            placeholder="Pilih Unit Kerja"
             required>
-            <option value="">pilih Unit Kerja</option>
-            @foreach ($unitkerjas as $unit)
-                <option value="{{ $unit->id }}"@selected($unit->id == $unitkerja)>
+            <option value="">Pilih Unit Kerja</option>
+            @foreach($unit_kerjas as $unit)
+                <option value="{{ $unit->id }}" @selected($unit->id == $unitkerja)>
                     {{ $unit->nama }}
-                </option>
+            </option>
             @endforeach
         </flux:select>
-        <flux:button type="submit" variant="primary">
+        <flux:button
+            type="submit"
+            variant="primary">
             Save
         </flux:button>
     </form>

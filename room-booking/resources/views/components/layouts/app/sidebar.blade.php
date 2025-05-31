@@ -12,10 +12,27 @@
             </a>
 
             <flux:navlist variant="outline">
-                <flux:navlist.group :heading="__('Platform')" class="grid">
-                    <flux:navlist.item icon="home" :href="route('dashboard')" :current="request()->routeIs('dashboard')" wire:navigate>{{ __('Dashboard') }}</flux:navlist.item>
-                </flux:navlist.group>
-            </flux:navlist>
+   <flux:navlist.group :heading="__('Platform')" class="grid">
+      <flux:navlist.item icon="home" :href="route('dashboard')" :current="request()->routeIs('dashboard')" wire:navigate>{{ __('Dashboard') }}</flux:navlist.item>
+      <flux:navlist.item icon="building-office" :href="route('ruang.index')" :current="request()->routeIs('ruang')" wire:navigate>{{ __('Manajemen Ruang') }}</flux:navlist.item>
+      <flux:navlist.item icon="building-office" :href="route('unit-kerja.index')" :current="request()->routeIs('unit-kerja')" wire:navigate>
+    {{ __('Unit Kerja') }}
+</flux:navlist.item>
+<flux:navlist.item icon="calendar-days" :href="route('peminjaman.index')" :current="request()->routeIs('peminjaman')" wire:navigate>
+    {{ __('Peminjaman') }}
+</flux:navlist.item>
+<flux:navlist.item icon="users" :href="route('pegawai.index')" :current="request()->routeIs('pegawai')" wire:navigate>
+    {{ __('Pegawai') }}
+</flux:navlist.item>
+
+
+
+
+    </flux:navlist.group>
+   
+      
+</flux:navlist>
+
 
             <flux:spacer />
 

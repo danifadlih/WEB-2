@@ -9,20 +9,18 @@ class ListPegawai extends Component
 {
     public function render()
     {
-        return view('livewire.pegawai.list-pegawai',[
-            'pegawais' => Pegawai ::select('pegawai.*', 'unitkerjas.nama as nama_unitkerjas')
-            ->join('unitkerjas', 'pegawai.unitkerjas_id', '=', 'unitkerjas_id')
-            ->get(),
-        
-    ]);
+        return view('livewire.pegawai.list-pegawai', [
+            'pegawais' => Pegawai::select('pegawai.*', 'unitkerja.nama as nama_unitkerja')
+                ->join('unitkerja', 'pegawai.unitkerjas_id', '=', 'unitkerja.id')
+                ->get(),
+        ]);
     }
-     public function delete($id)
+    public function delete($id)
     {
         $pegawai = Pegawai::find($id);
         if ($pegawai) {
             $pegawai->delete();
-            session()->flash('message', 'Ruang berhasil dihapus.');
+            session()->flash('message', 'pegawai berhasil dihapus.');
         }
     }
 }
-

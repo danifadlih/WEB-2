@@ -4,43 +4,43 @@ namespace App\Livewire\Pegawai;
 
 use Livewire\Component;
 use App\Models\Pegawai;
-use Livewire\Attributes\validate;
-use App\Models\unitkerjas;
+use Livewire\Attributes\Validate;
+use App\Models\UnitKerja;
 
 class EditPegawai extends Component
 {
-    #[validate('required|string|max:10')]
-    public $nip; 
+    #[Validate('required|string|max:10')]
+    public $nip;
 
-    #[validate('required|string|max:58')]
+    #[Validate('required|string|max:50')]
     public string $nama;
 
-   #[validate('required')]
-    public $unitkerjas;
+    #[Validate('required|string|max:50')]
+    public $unitkerja;
 
     public Pegawai $pegawai;
 
-    public $unitkerja; 
+    public $unit_kerjas;
 
-    public function mount(Pegawai $pegawai) {
-        $this->pegawai = $pegawai;
-        $this->nip = $pegawai->nip;
-        $this->nama = $pegawai->nama;
-        $this->unitkerjas = $pegawai->unitkerjas_id;
-        $this->unitkerjas = unitkerjas::all();
-
+    public function mount(Pegawai $pegawai){
+        $this ->pegawai = $pegawai;
+        $this ->nip = $pegawai->nip; 
+        $this ->nama = $pegawai->nama;
+        $this ->unitkerja = $pegawai->unit_kerja_id;
+        $this ->unit_kerjas = UnitKerja::all();
     }
 
-    public function save(){
+    public function save()
+    {
         $this->validate();
 
         $this->pegawai->update([
             'nip' => $this->nip,
             'nama' => $this->nama,
-            'unitkerjas_id' => $this->unitkerjas,
-            
+            'unit_kerja_id' => $this->unitkerja, 
         ]);
-        session()->flash('message', 'pegawai berhasil di ubah');
+
+        session()->flash('message', 'Pegawai berhasil diubah');
 
         $this->redirectRoute('pegawai.index');
     }
