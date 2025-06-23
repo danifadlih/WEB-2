@@ -124,7 +124,7 @@ if (isset($_POST['submit'])) {
                                 </div>
                                 <div class="mb-3">
                                     <label for="age" class="form-label">Age</label>
-                                    <input type="number" class="form-control" id="age"
+                                    <input type="number" class="form-control" id="age" name="age"
                                         min="0" max="100" required>
                                 </div>
                                 <div class="mb-3">
